@@ -1,5 +1,5 @@
-[Adrian] [Normal]
+[Adrian] [Moderiert]
 [Gabriel] [Normal]
 [Amil] [Normal]
-[Alexander] [Normal]
+[Alexander] [Gebannt]
 [Filip] [Normal]
