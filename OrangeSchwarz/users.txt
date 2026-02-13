@@ -1,0 +1,5 @@
+[Adrian] [Normal]
+[Gabriel] [Normal]
+[Amil] [Normal]
+[Alexander] [Normal]
+[Filip] [Normal]

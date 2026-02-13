@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OrangeSchwarz</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>OrangeSchwarz</h1>
+    <div id="topRightUser">Nicht eingeloggt</div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Login</h2>
+      <div class="form-row">
+        <label for="nameInput">Name</label>
+        <input id="nameInput" placeholder="z. B. Max Mustermann" />
+      </div>
+      <div class="form-row">
+        <label for="codeInput">Code (Admin)</label>
+        <input id="codeInput" type="password" placeholder="2934" />
+      </div>
+      <button id="loginBtn">Einloggen</button>
+      <p class="hint">Codes: 2934 = Amil (Admin), 5661 = Gabriel (Owner).</p>
+    </section>
+
+    <section class="panel">
+      <h2>Nutzerliste</h2>
+      <div id="users"></div>
+    </section>
+
+    <section class="panel" id="adminPanel" hidden>
+      <h2>Admin/Owner Bereich (Amil & Gabriel)</h2>
+
+      <div class="admin-block">
+        <h3>Nutzer bannen</h3>
+        <div class="form-row"><label for="banTarget">Nutzer</label><input id="banTarget" /></div>
+        <div class="form-row"><label for="banDays">Tage</label><input id="banDays" type="number" min="1" value="1" /></div>
+        <div class="form-row"><label for="banReason">Grund</label><input id="banReason" /></div>
+        <button id="banBtn">Bannen</button>
+      </div>
+
+      <div class="admin-block">
+        <h3>Nutzer löschen</h3>
+        <div class="form-row"><label for="deleteTarget">Nutzer</label><input id="deleteTarget" /></div>
+        <div class="form-row"><label for="deleteReason">Grund</label><input id="deleteReason" /></div>
+        <button id="deleteBtn">Löschen</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-card">
+      <h3 id="popupTitle"></h3>
+      <p id="popupMessage"></p>
+      <button id="popupClose">Schließen</button>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
