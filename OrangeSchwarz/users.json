@@ -22,9 +22,9 @@
   },
   {
     "name": "Alexander",
-    "status": "Normal",
-    "deleted": false,
-    "deletedReason": "",
+    "status": "Deleted",
+    "deleted": true,
+    "deletedReason": "Not welcomed to OS",
     "ban": { "until": 0, "reason": "" }
   },
   {
