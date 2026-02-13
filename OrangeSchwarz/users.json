@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Adrian",
+    "status": "Normal",
+    "deleted": false,
+    "deletedReason": "",
+    "ban": { "until": 0, "reason": "" }
+  },
+  {
+    "name": "Gabriel",
+    "status": "Normal",
+    "deleted": false,
+    "deletedReason": "",
+    "ban": { "until": 0, "reason": "" }
+  },
+  {
+    "name": "Amil",
+    "status": "Normal",
+    "deleted": false,
+    "deletedReason": "",
+    "ban": { "until": 0, "reason": "" }
+  },
+  {
+    "name": "Alexander",
+    "status": "Deleted",
+    "deleted": true,
+    "deletedReason": "Not welcomed to OS",
+    "ban": { "until": 0, "reason": "" }
+  },
+  {
+    "name": "Filip",
+    "status": "Normal",
+    "deleted": false,
+    "deletedReason": "",
+    "ban": { "until": 0, "reason": "" }
+  }
+]
